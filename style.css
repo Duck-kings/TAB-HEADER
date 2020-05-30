@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbtn{
+    width: 100%;
+    height: 65px;
+}
+.btn{
+    outline: none;
+    border: none;
+    height: 100%;
+    float: left;
+    width: 25%;
+    background: #1f1f1f;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #737373;
+}
+#Lnd{
+    background-color: #610303;
+}
+#Psg{
+    background-color: #a66d0a;
+}
+#Tko{
+    background-color: #328009;
+}
+#Osl{
+    background-color: #053269;
+}
+.content{
+    overflow: hidden;
+    color: #fff;
+    height: 250px;
+    display: none;
+}
+.active{
+    display: block;
+}
+#btn1{
+    background: #610303;
+}
+#btn2{
+    background: #a66d0a;
+}
+#btn3{
+    background: #328009;
+}
+#btn4{
+    background: #053269;
+}
+
